@@ -8,22 +8,22 @@ namespace CoreLibrary
 {
     public class MathClass
     {
-        public double Addition(int n1, int n2)
+        public double Addition(double n1, double n2)
         {
             return n1 + n2;
         }
 
-        public double Subtract(int n1, int n2)
+        public double Subtract(double n1, double n2)
         {
             return (n1 - n2);
         }
 
-        public double Multiply(int n1, int n2)
+        public double Multiply(double n1, double n2)
         {
             return (n1 * n2);
         }
 
-        public double Divide(int n1, int n2)
+        public double Divide(double n1, double n2)
         {
             return (n1 / n2);
         }
